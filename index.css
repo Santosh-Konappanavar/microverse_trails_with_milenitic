@@ -1,3 +1,13 @@
+#body{
+background-image: url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+opacity: 0.8;
+color: white;
+}
+#body-wrapper{
+    background-color:#1b1b32;
+    width: 50%;
+    margin: auto;
+}
 #main{
     text-align: center;
 }
@@ -7,4 +17,18 @@
     max-width: 40%;
     width: 100%;
     margin: auto;
+}
+input{
+    height: 30px;
+}
+label{
+margin-top: 10px;
+}
+#submit{
+    margin-top: 10px;
+    background-color: green;
+    border: none;
+}
+#textarea{
+    height: 70px !important;
 }
